@@ -1,0 +1,17 @@
+.email-search-table {
+    width: 100%;
+}
+.email-search-table-header {
+    background-color: #6b7b6ead;
+    color: white;
+}
+tr {
+    height: 2.5em;
+}
+
+.not-found-record {
+    background-color: #f9cfcf;
+}
+.found-record {
+    background-color: #c3efd7;
+}

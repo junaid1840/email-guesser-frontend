@@ -1,0 +1,15 @@
+.badge {
+    border-radius: 0.358rem;
+    padding: 0.3rem 0.5rem;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 85%;
+    font-weight: 600;
+    color: white;
+}
+.badge-danger {
+    background-color: #ea5455;
+}
+.badge-success {
+    background-color: #28c76f;
+}
