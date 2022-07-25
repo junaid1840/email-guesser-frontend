@@ -10,7 +10,7 @@ interface IProps {
 
 export const SearchList: FC<IProps> = ({searchList}) => {
     return (
-        <table className="email-search-table">
+        <table className="email-search-table" data-testid="search-list-table">
             <thead className="email-search-table-header">
                 <tr className="email-search-table-row">
                     <th>Status</th>

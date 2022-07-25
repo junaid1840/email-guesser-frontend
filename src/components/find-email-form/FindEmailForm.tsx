@@ -1,4 +1,4 @@
-import React, {Dispatch, FC, SetStateAction} from "react";
+import React, { Dispatch, FC, SetStateAction } from "react";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import {ISearchListItem, IUserDetails} from "../../types/user.types";
 import { getDerivedEmailService } from "../../services/derivedEmailServices";
@@ -43,7 +43,7 @@ export const FindEmailForm: FC<IProps> = ({ searchList, setSearchList}: IProps) 
             }}
         >
             {() => (
-                <Form>
+                <Form data-testid="find-email-form">
                     <div className="find-email-wrapper">
                         <div className="input-wrapper">
                             <Field
