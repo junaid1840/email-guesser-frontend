@@ -37,3 +37,16 @@ npm run test
 ```bash
 npm run test:coverage
 ```
+
+## How application works
+This single page application has a form which needs to be submit in order to populate results.
+1. If the user has entered wrong values according to form. Respective error messages will appear against each field.
+2. If user has submitted form with correct data and if the domain name matches with any sample domain then it will add up a record in table with `Found` status.
+3. If there is no matching domain against the submitted data then a record will be added at top of the table with `Not Found` status.
+Note: The domain should be exact match with the domain in sample data for example `google.com` not only `google`.
+
+## How to improve
+* We can further improve this application by allowing some flexibility for `google.com` vs `google`.
+* Add dropdown of only known domains so there is always a success record.
+* Add some checks to prevent showing duplicate records.
+* More...
