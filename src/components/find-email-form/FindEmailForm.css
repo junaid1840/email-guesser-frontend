@@ -1,0 +1,52 @@
+
+.find-email-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #2f845a;
+    padding: 1em;
+}
+.find-email-form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5em;
+    flex: auto;
+    margin: 1em;
+}
+.form-control::placeholder {
+     padding-left: 0.2em;
+}
+.form-control {
+    color: #6e6b7b;
+    display: block;
+}
+.form-control-lg {
+    font-size: 1.143rem;
+    height: 2em;
+    line-height: 1.25;
+    border-radius: 3px;
+    border: 1px #2f845a;
+    width: 100%;
+}
+.btn-primary {
+    font-size: 1.25em;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    height: 2em;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px rgb(47 160 123);
+    background: rgb(47 160 123);
+}
+.error-msg {
+    color: #ffffff;
+    font-weight: 500;
+}
