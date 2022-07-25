@@ -9,16 +9,14 @@ const axiosInstance: AxiosInstance = axios.create({
     },
 });
 export const API_MANAGER = {
-    post: async (
+    get: async (
         url: string,
-        body: unknown,
         baseURL = process.env.REACT_APP_BASE_URL
     ): Promise<AxiosResponse> => {
         try {
             return axiosInstance({
-                method: "POST",
+                method: "GET",
                 url: url,
-                data: body,
                 baseURL: baseURL,
             });
         } catch (e) {
